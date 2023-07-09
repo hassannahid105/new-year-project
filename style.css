@@ -55,7 +55,7 @@ header {
 }
 
 .btn-primary {
-  padding: 20px 25px;
+  padding: 15px 35px;
   color: #005fac;
   display: block;
   margin-left: auto;
@@ -96,8 +96,6 @@ li i {
   flex-shrink: 0;
 }
 
-.plan {
-}
 .plan > h2 {
   color: #151414;
   text-align: center;
@@ -110,7 +108,10 @@ li i {
   align-items: center;
   justify-content: space-between;
 }
-
+.plan-item {
+  display: flex;
+  flex-direction: column;
+}
 .plan-item h4 {
   color: #151414;
   font-size: 30px;
