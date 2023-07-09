@@ -126,3 +126,20 @@ li i {
 .plan-item > img {
   margin: 0 auto;
 }
+.mindset {
+  background-image: url("images/gradient3.png"), url("images/watch.png");
+  padding: 64px 60px;
+  background-repeat: no-repeat;
+  background-position: top left, top right;
+}
+
+.mindset > h2 {
+  width: 50%;
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.mindset > button {
+  margin: 0;
+}
