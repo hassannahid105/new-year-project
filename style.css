@@ -144,3 +144,51 @@ li i {
 .mindset > button {
   margin: 0;
 }
+/* footer section */
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 230px 130px;
+  background: #151414;
+  color: #fff;
+}
+
+.footer-fut {
+  max-width: 30%;
+}
+
+.footer-fut h2 {
+  font-size: 45px;
+  margin-bottom: 10px;
+}
+.footer-fut p {
+  line-height: 26px;
+  margin-bottom: 6px;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 15px;
+}
+
+.footer-sub h4 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.footer-sub input {
+  display: block;
+  margin-bottom: 7px;
+  padding: 10px 15px;
+  border: 0;
+  border-radius: 6px;
+}
+.footer-sub input[type="submit"] {
+  background-color: #005fac;
+  color: #fff;
+}
+input:focus {
+  outline: none;
+}
